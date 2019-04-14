@@ -1,0 +1,13 @@
+org\timesheet\web\TaskControllerTest.class
+org\timesheet\DomainAwareBase.class
+org\timesheet\web\TimesheetServiceControllerTest.class
+org\timesheet\integration\HibernateConfigurationTest.class
+org\timesheet\service\EmployeeDaoTest.class
+org\timesheet\web\TimesheetControllerTest.class
+org\timesheet\service\dao\TimesheetDaoTest.class
+org\timesheet\service\dao\ManagerDaoTest.class
+org\timesheet\web\EmployeeControllerTest.class
+org\timesheet\web\ManagerControllerTest.class
+org\timesheet\service\TimesheetServiceTest.class
+org\timesheet\service\dao\TaskDaoTest.class
+org\timesheet\service\dao\EmployeeDaoTest.class

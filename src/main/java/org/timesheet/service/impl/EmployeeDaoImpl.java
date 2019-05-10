@@ -11,7 +11,7 @@ public class EmployeeDaoImpl extends HibernateDao<Employee, Long> implements Emp
 	@Override
 	public boolean removeEmployee(Employee employee) {
 		Query employeeTaskQuery=currentSession().createQuery(
-				"from Task t where :id in elments(t.assignedEmployees)");
+				"from Task t where :id in elements(t.assignedEmployees)");
 		employeeTaskQuery.setParameter("id", employee.getId());
 		
 		//employee must not be assigned to any task

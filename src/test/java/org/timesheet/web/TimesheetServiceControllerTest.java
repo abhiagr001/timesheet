@@ -37,7 +37,8 @@ public class TimesheetServiceControllerTest extends DomainAwareBase {
     @Autowired
     private ManagerDao managerDao;
  
-    @Autowired
+    @SuppressWarnings("deprecation")
+	@Autowired
     private SimpleJdbcTemplate jdbcTemplate;
  
     private Model model;

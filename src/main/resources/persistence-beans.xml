@@ -20,9 +20,8 @@
 	<!-- data source for database -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName"
-			value="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" />
-		<property name="url" value="jdbc:mysql://localhost:3306/timesheet" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/timesheet?useSSL=false" />
 		<property name="username" value="root" />
 		<property name="password" value="56819940" />
 	</bean>

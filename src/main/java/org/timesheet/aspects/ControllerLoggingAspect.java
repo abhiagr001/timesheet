@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.annotation.Before;
 
 /**
-* Will log every invokation of @RequestMapping annotated methods
+* Will log every invocation of @RequestMapping annotated methods
 * in @Controller annotated beans.
 */
 @Aspect
